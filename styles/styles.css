@@ -1,0 +1,48 @@
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 20px;
+}
+```
+
+#### d. `package.json`
+
+Pastikan file ini ada di root folder proyek Anda dan berisi isi berikut:
+
+```json
+{
+  "name": "hook-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
